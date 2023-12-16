@@ -1,0 +1,48 @@
+import React from 'react'
+import styled from "styled-components"
+
+const Navbar = () => {
+  return (
+    <Container>
+       <ul>
+          <li>Home</li>
+          <li>About Me</li>
+          <li>Services</li>
+          <li>Portfolio</li>
+          <li>Contact</li>
+       </ul>
+    </Container>
+  )
+}
+
+
+const Container = styled.div `
+  padding-top:40px;
+  background-color:white;
+  ul{
+   list-style-type: none;
+  margin: 0;
+  padding: 10;
+  overflow: hidden;  
+  }
+
+  li {
+  float: left;
+  padding-left: 40px;
+  margin-right:80px;
+  
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+`
+
+export default Navbar
