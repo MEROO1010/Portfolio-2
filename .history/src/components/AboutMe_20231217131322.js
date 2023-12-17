@@ -9,16 +9,7 @@ const AboutMe = () => {
 
       <Title>
         <h1>About me</h1>
-
-        <p>
-        My name is Marwah Alsaggaf, and I'm a <br/>software developer in <br/>JavaScript,python,flutter and PHP 
- and <br/>graphic designer. I  <br/>          
-            graduated from Arab Open <br/> University with a major in <br/>
-             Information Technology and <br/>Computing
-        </p>
       </Title>
-
-
     </Container>
   )
 }
@@ -37,15 +28,7 @@ const Title = styled.div `
  h1{
   position:relative;
   bottom:1300px;
-  right:300px;
-  font-size:50px;
- }
-
- p{
-  position:relative;
-  bottom:1250px;
-  right:290px;
-  font-size:30px;
+  right:200px;
  }
 `
 

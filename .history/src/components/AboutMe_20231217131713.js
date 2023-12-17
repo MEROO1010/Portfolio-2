@@ -44,7 +44,7 @@ const Title = styled.div `
  p{
   position:relative;
   bottom:1250px;
-  right:290px;
+  right:250px;
   font-size:30px;
  }
 `

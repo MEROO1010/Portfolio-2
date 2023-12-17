@@ -40,13 +40,6 @@ const Title = styled.div `
   right:300px;
   font-size:50px;
  }
-
- p{
-  position:relative;
-  bottom:1250px;
-  right:290px;
-  font-size:30px;
- }
 `
 
 export default AboutMe

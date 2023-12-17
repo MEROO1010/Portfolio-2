@@ -43,9 +43,8 @@ const Title = styled.div `
 
  p{
   position:relative;
-  bottom:1250px;
-  right:290px;
-  font-size:30px;
+  bottom:1200px;
+  right:200px;
  }
 `
 
