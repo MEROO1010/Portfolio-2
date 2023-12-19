@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from "styled-components"
 import Card1 from "../images/Card 1.png"
-import Card2 from "../images/Card 2.png"
-import Card3 from "../images/Card 3.png"
-import Card4 from "../images/Card 4.png"
+import Card2 from "../images/Card 1.png"
+import Card3 from "../images/Card 1.png"
+import Card4 from "../images/Card 1.png"
 
 
 const Services = () => {
@@ -26,22 +26,6 @@ h1{
   position:relative;
   bottom:900px;
   font-size:60px;
-}
-
-ul{
-  display: inline-block;
-  
-}
-
-li{
-  list-style-type: none;
-}
-
-img{
-  position:relative;
-  bottom:800px;
-  width:300px;
-  height:300px;
 }
 `
 

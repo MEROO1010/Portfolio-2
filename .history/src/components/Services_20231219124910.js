@@ -36,7 +36,6 @@ ul{
 li{
   list-style-type: none;
 }
-
 img{
   position:relative;
   bottom:800px;

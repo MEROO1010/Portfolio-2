@@ -30,16 +30,12 @@ h1{
 
 ul{
   display: inline-block;
-  
-}
-
-li{
-  list-style-type: none;
 }
 
 img{
   position:relative;
-  bottom:800px;
+  bottom:600px;
+  padding-left:40px;
   width:300px;
   height:300px;
 }

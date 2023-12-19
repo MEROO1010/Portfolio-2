@@ -30,10 +30,6 @@ h1{
 
 ul{
   display: inline-block;
-  
-}
-
-li{
   list-style-type: none;
 }
 

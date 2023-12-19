@@ -30,18 +30,13 @@ h1{
 
 ul{
   display: inline-block;
-  
-}
-
-li{
-  list-style-type: none;
 }
 
 img{
   position:relative;
-  bottom:800px;
+  bottom:600px;
   width:300px;
-  height:300px;
+  height:350px;
 }
 `
 
