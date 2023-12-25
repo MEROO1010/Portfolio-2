@@ -59,7 +59,7 @@ const IMAGES1 = styled.div `
     width:400px;
     height:640px;
     position:relative;
-    bottom:500px;
+    bottom:550px;
     right:460px;
  }
 `

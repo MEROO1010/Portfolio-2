@@ -57,9 +57,9 @@ h1{
 const IMAGES1 = styled.div `
  img{
     width:400px;
-    height:640px;
+    height:800px;
     position:relative;
-    bottom:500px;
+    bottom:550px;
     right:460px;
  }
 `
@@ -67,7 +67,7 @@ const IMAGES1 = styled.div `
 const IMAGES2 =styled.div `
  table{
     position: relative;
-    bottom:1240px;
+    bottom:1110px;
     left:600px; 
     padding-left:40px;   
  }
