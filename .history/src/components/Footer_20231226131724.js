@@ -60,7 +60,7 @@ padding-bottom:80px;
   position:relative;
   list-style-type: none;
   padding-left: 40px;
-  bottom: 740px;
+  bottom: 700px;
   right:100px;    
   overflow: hidden;
     

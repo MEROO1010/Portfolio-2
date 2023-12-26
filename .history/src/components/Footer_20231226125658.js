@@ -4,7 +4,7 @@ import MYLOGO from "../images/white logo.png";
 import Behance from "../images/Behance.png";
 import TwitterX from "../images/TwitterX.png";
 import LinkedIn from "../images/LinkedIn.png";
-import GitHub from "../images/GitHub.png";
+import Instagram from "../images/Instagram.png";
 
 
 const Footer = () => {
@@ -17,26 +17,18 @@ const Footer = () => {
 
        <Icons>
        <ul >
-            <li><a href='https://www.behance.net/merooalsaggaf'><img src={Behance}alt=""/></a></li>
-            <li><a href='https://github.com/MEROO1010'><img src={GitHub}alt=""/></a></li>
-            <li><a href='https://twitter.com/meroo_alsaggaf'><img src={TwitterX}alt=""/></a></li>
-            <li><a href='https://www.linkedin.com/in/marwah-alsaggaf-ba44011b2/'><img src={LinkedIn}alt=""/></a></li>
+            <li><a href='https://github.com/MEROO1010'><img src={Behance}alt=""/></a></li>
+            <li><a href='https://www.instagram.com/meroo_alsaggaf/'><img src={TwitterX}alt=""/></a></li>
+            <li><a href='https://www.behance.net/merooalsaggaf'><img src={LinkedIn}alt=""/></a></li>
+            <li><a href='https://www.linkedin.com/in/marwah-alsaggaf-ba44011b2/'><img src={Instagram}alt=""/></a></li>
           </ul>
        </Icons>
-
-       <h1>© 2023  All rights reserved</h1>
     </Container>
   )
 }
 
 const Container = styled.div `
-h1{
-  position:relative;
-  bottom:600px;
-  left:20px;
-  font-size:16px;
-  font-weight: 400;
-}
+
 `
 
 const Logo = styled.div `
@@ -57,11 +49,12 @@ padding-bottom:80px;
 
  const Icons = styled.div `
  ul{
-  position:relative;
-  list-style-type: none;
+    position:relative;
+   list-style-type: none;
+
   padding-left: 40px;
   bottom: 740px;
-  right:100px;    
+  right:60px;    
   overflow: hidden;
     
   }

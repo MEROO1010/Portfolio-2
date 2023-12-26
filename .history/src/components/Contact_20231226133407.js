@@ -38,7 +38,7 @@ const Contact = () => {
         <textarea name="message" placeholder="Your Message"/>
 
         <InputBtn>
-        <input type="submit" value="Send" />
+        <input type="submit" value="Send"/>
         </InputBtn>
         </ContactForm>
     </Container>

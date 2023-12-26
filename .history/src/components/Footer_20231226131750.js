@@ -48,7 +48,7 @@ padding-bottom:80px;
  width:100px;
  height:100px;
  float: left;
- margin-left:40px;
+ 
  padding-bottom:4px;
  justifyContent: flex-end;
 

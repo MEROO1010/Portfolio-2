@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import DOTS from "../images/dots.png"
-import firebase from '../firebase/firebase';
+import { db } from './firebase';
+import firebase from './firebase';
 
 const Contact = () => {
 
@@ -38,7 +39,7 @@ const Contact = () => {
         <textarea name="message" placeholder="Your Message"/>
 
         <InputBtn>
-        <input type="submit" value="Send" />
+        <input type="submit" value="Send"/>
         </InputBtn>
         </ContactForm>
     </Container>

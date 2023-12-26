@@ -26,11 +26,10 @@ const Home = () => {
        </CircleIcon>
 
        <ul >
-            <li><a href='https://www.behance.net/merooalsaggaf'><img src={Behance}alt=""/></a></li>
-            <li><a href='https://github.com/MEROO1010'><img src={GitHub}alt=""/></a></li>
-            <li><a href='https://twitter.com/meroo_alsaggaf'><img src={TwitterX}alt=""/></a></li>
-            <li><a href='https://www.linkedin.com/in/marwah-alsaggaf-ba44011b2/'><img src={LinkedIn}alt=""/></a></li>
-            
+            <li><a href='https://github.com/MEROO1010'><img src={Behance}alt=""/></a></li>
+            <li><a href='https://www.linkedin.com/in/marwah-alsaggaf-ba44011b2/'><img src={GitHub}alt=""/></a></li>
+            <li><a href='https://www.instagram.com/meroo_alsaggaf/'><img src={TwitterX}alt=""/></a></li>
+            <li><a href='https://www.behance.net/merooalsaggaf'><img src={LinkedIn}alt=""/></a></li>
             
           </ul>
 
