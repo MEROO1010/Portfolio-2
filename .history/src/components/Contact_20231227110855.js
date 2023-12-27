@@ -31,9 +31,8 @@ function Contact() {
 
       <ContactForm onSubmit={handleSubmit}>
       <label>
-       
+        Email:
         <input
-          placeholder="Your Email"
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
@@ -41,17 +40,14 @@ function Contact() {
       </label>
       <br />
       <label>
-        
+        Message:
         <textarea
-         placeholder="Your Message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         />
       </label>
       <br />
-      <InputBtn>
       <button type="submit">Send</button>
-      </InputBtn>
       </ContactForm>
     </Container>
   );
@@ -72,17 +68,10 @@ const Container = styled.div`
 `;
 
 const ContactForm = styled.form`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position:relative;
-  bottom:1100px;
-
-  label {
-    margin-bottom: 10px;
-  }
-
   input {
+    position: relative;
+    bottom: 1250px;
+    left: 220px;
     width: 400px;
     height: 50px;
     border-radius: 30px;
@@ -90,7 +79,6 @@ const ContactForm = styled.form`
     background-color: #dedede;
     padding-left: 20px;
     font-family: 'Poppins';
-    margin-bottom: 10px;
   }
 
   input:hover {
@@ -98,6 +86,9 @@ const ContactForm = styled.form`
   }
 
   textarea {
+    position: relative;
+    bottom: 980px;
+    right: 200px;
     width: 400px;
     height: 200px;
     border-radius: 20px;
@@ -106,26 +97,20 @@ const ContactForm = styled.form`
     padding-left: 20px;
     padding-top: 10px;
     font-family: 'Poppins';
-    margin-bottom: 10px;
   }
 `;
 
 const InputBtn = styled.div`
-  button {
+  input {
+    position: relative;
+    bottom: 960px;
+    margin-right: 420px;
     width: 350px;
     background-color: #3bb873;
     color: white;
     font-weight: bold;
     font-size: 20px;
-    cursor: pointer;
-    border: 0;
-    border-radius: 30px;
-    height: 50px;
-    transition: background-color 0.3s ease;
-  }
-
-  button:hover {
-    background-color: #2a8e5a;
+    pointer: cursor;
   }
 `;
 

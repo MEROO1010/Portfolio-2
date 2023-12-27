@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from "styled-components"
 import MYLOGO from "../images/white logo.png";
-
+import Behance from "../images/Behance.png";
 const Navbar = () => {
   return (
     <Container>
@@ -80,10 +80,7 @@ padding-bottom:80px;
 `
 
 const PortfolioButton = styled.div`
-a{
-  color: white;
-  text-decoration: none;
-}
+
   button{
     position:relative;
 margin-left:40px;

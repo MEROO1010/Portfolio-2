@@ -43,7 +43,7 @@ const Logo = styled.div `
  position:relative;
 bottom:940px;
 left:660px;
-padding-bottom:80px;
+
  img{
  width:100px;
  height:100px;

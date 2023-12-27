@@ -80,11 +80,8 @@ padding-bottom:80px;
 `
 
 const PortfolioButton = styled.div`
-a{
-  color: white;
-  text-decoration: none;
-}
-  button{
+
+  a{
     position:relative;
 margin-left:40px;
 left:550px;

@@ -33,7 +33,6 @@ function Contact() {
       <label>
        
         <input
-          placeholder="Your Email"
           type="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
@@ -43,15 +42,12 @@ function Contact() {
       <label>
         
         <textarea
-         placeholder="Your Message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         />
       </label>
       <br />
-      <InputBtn>
       <button type="submit">Send</button>
-      </InputBtn>
       </ContactForm>
     </Container>
   );
@@ -75,8 +71,6 @@ const ContactForm = styled.form`
   display: flex;
   flex-direction: column;
   align-items: center;
-  position:relative;
-  bottom:1100px;
 
   label {
     margin-bottom: 10px;

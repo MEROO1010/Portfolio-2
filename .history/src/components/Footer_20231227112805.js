@@ -33,7 +33,7 @@ const Container = styled.div `
 h1{
   position:relative;
   bottom:800px;
-  right:30px;
+  right:40px;
   font-size:16px;
   font-weight: 400;
 }

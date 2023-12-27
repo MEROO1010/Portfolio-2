@@ -32,8 +32,8 @@ const Footer = () => {
 const Container = styled.div `
 h1{
   position:relative;
-  bottom:800px;
-  right:30px;
+  bottom:660px;
+  left:20px;
   font-size:16px;
   font-weight: 400;
 }
@@ -41,8 +41,8 @@ h1{
 
 const Logo = styled.div `
  position:relative;
-bottom:940px;
-left:660px;
+bottom:1000px;
+left:700px;
 padding-bottom:80px;
  img{
  width:100px;
@@ -60,8 +60,8 @@ padding-bottom:80px;
   position:relative;
   list-style-type: none;
   padding-left: 40px;
-  bottom: 880px;
-  right:130px;    
+  bottom: 740px;
+  right:100px;    
   overflow: hidden;
     
   }

@@ -49,9 +49,7 @@ function Contact() {
         />
       </label>
       <br />
-      <InputBtn>
       <button type="submit">Send</button>
-      </InputBtn>
       </ContactForm>
     </Container>
   );

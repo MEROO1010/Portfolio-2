@@ -49,9 +49,7 @@ function Contact() {
         />
       </label>
       <br />
-      <InputBtn>
       <button type="submit">Send</button>
-      </InputBtn>
       </ContactForm>
     </Container>
   );
@@ -76,7 +74,7 @@ const ContactForm = styled.form`
   flex-direction: column;
   align-items: center;
   position:relative;
-  bottom:1100px;
+  bottom:1200px;
 
   label {
     margin-bottom: 10px;

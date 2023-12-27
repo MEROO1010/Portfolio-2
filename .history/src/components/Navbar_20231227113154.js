@@ -18,7 +18,7 @@ const Navbar = () => {
        </Logo>
 
        <PortfolioButton>
-         <button><a href='https://www.behance.net/merooalsaggaf'>Portfolio Here</a></button>
+         <button>Portfolio Here</button>
        </PortfolioButton>
     </Container>
   )
@@ -80,10 +80,7 @@ padding-bottom:80px;
 `
 
 const PortfolioButton = styled.div`
-a{
-  color: white;
-  text-decoration: none;
-}
+
   button{
     position:relative;
 margin-left:40px;
